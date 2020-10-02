@@ -1,0 +1,37 @@
+body{
+	height: 100%;
+    background: aliceblue;
+}
+.navbar{
+	background:#c0ffff;
+	margin-bottom:25px;
+}
+.navbar a{
+	font-weight:bold;
+	font-family:emoji;
+	font-size:larger;
+	text-align:center;
+}
+.dropdown-menu{
+	text-align:center;
+	width:max-content;
+	margin:auto;
+	background:#C0FFFF;
+}
+
+#hist img{
+	width:15%;
+	margin:auto;
+	margin-bottom:2%;
+}
+#hist p{
+	width:95%;
+	text-align:justify;
+	text-indent:50px;
+}
+@media (max-width:768px){
+	.dropdown-menu{
+		border-width:medium;
+		width:95%
+	}
+}

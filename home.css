@@ -1,0 +1,45 @@
+body{
+	height: 100%;
+    background: aliceblue;
+}
+.navbar{
+	background:#c0ffff;
+	margin-bottom:25px;
+}
+.navbar a{
+	font-weight:bold;
+	font-family:emoji;
+	font-size:larger;
+	text-align:center;
+}
+.dropdown-menu{
+	text-align:center;
+	width:max-content;
+	margin:auto;
+	background:#C0FFFF;
+}
+#slide{
+	width:83%;
+	margin:auto
+}
+#aim ul{
+	text-align:initial;
+	list-style:disc;
+}
+@media (max-width:768px){
+	.dropdown-menu{
+		border-width:medium;
+		width:95%
+	}
+}
+@media (min-width: 1024px)
+.lg\:w-1\/2 {
+    width: 100%;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: auto;
+    width: 100%;
+}
