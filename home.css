@@ -13,7 +13,7 @@ body{
 	text-align:center;
 }
 .dropdown-menu{
-	text-align:center;
+	text-align:left;
 	width:max-content;
 	margin:auto;
 	background:#C0FFFF;
